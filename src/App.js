@@ -8,9 +8,9 @@ function App() {
     <div className='contenedor-principal'>
       <h1>Mis cuentas preferidas</h1>
       <Perfil
-      nombre='brais'
+      nombre='Brais'
       pais='España'
-      cargo='Dev'
+      cargo='Developer'
       empresa='Youtube'
       resena='Lorem Ipsum es simplemente el te Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el .'
       imagen='brais'       
@@ -18,19 +18,19 @@ function App() {
       </div>
       <div>
       <Perfil
-      nombre='facundo'
-      pais='USa'
-      cargo='Developer'
-      empresa='Utube'
+      nombre='Facundo'
+      pais='Usa'
+      cargo='Desarrollador'
+      empresa='Desconocida'
       resena='lLorem Ipsum es simplemente el . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el .'
       imagen='facundo'       
       />
      </div>
      <Perfil
-      nombre='fatz'
-      pais='USa'
-      cargo='Developer'
-      empresa='Utube'
+      nombre='Fatz'
+      pais='Mexico'
+      cargo='Instructor'
+      empresa='YouTube'
       resena='lLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el .'
       imagen='fatz'       
       />
