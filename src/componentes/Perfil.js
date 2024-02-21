@@ -20,13 +20,15 @@ function Perfil(props){
           </div>
           <div>
  <button onClick = {() => window.open(props.twitter, '_blank')}>
-
+ Equis X (antes twitter)
    </button>
    <button onClick = {() => window.open(props.linkedin, '_blank')}>
+  Linkedin
    </button>
    <button onClick = {() => window.open(props.youtube, '_blank')}>
-    <Contador/>
+Youtube
    </button>
+   <Contador/> 
   </div>
       </div>
   )

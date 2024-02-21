@@ -2,14 +2,14 @@
     width: 1000px;
     height: 300px;
     display: flex;
-    background-color: papayawhip;
+    background-color: rgb(138, 49, 121);
     margin: 10px 10px 30px;
     justify-content: center;
   }
   
   .imagen-perfil{
-    height: 100%;
-    width: auto;
+    height: 50%;
+    width: 50%;
   }
   
   .contenedor-texto-perfil{
@@ -35,7 +35,7 @@
   
   
    button {
-    background-color: #4CAF50; /* Green */
+    background-color: #3c520b; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -43,7 +43,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 10px 20px;
     cursor: pointer;
   }
   
+  .contador{
+    background-color: blue;
+    display: flex;
+  }

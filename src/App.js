@@ -14,6 +14,9 @@ function App() {
       empresa='Youtube'
       resena='Lorem Ipsum es simplemente el te Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el .'
       imagen='brais'       
+      linkedin='https://www.linkedin.com/in/braismoure/'
+      youtube='https://www.youtube.com/@mouredev'
+      twitter='https://twitter.com/MoureDev'
       />
       </div>
       <div>
@@ -24,6 +27,9 @@ function App() {
       empresa='Desconocida'
       resena='lLorem Ipsum es simplemente el . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el .'
       imagen='facundo'       
+      linkedin='https://www.linkedin.com/in/carlos-herrera-1294a0ab/'
+      youtube='https://www.youtube.com/channel/UCKSZP94UTsrBcrW5nBo4Jmg'
+      twitter='https://twitter.com/thc_lsd_dmt'
       />
      </div>
      <Perfil
@@ -33,6 +39,9 @@ function App() {
       empresa='YouTube'
       resena='lLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el .'
       imagen='fatz'       
+      linkedin='https://www.linkedin.com/in/fatz-agency-554005210/'
+      youtube='https://www.youtube.com/@FaztCode'
+      twitter='https://twitter.com/fatz'
       />
     </div>
   );

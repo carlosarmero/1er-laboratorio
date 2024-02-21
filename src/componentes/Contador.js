@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import '../estilos/perfil.css'
 
 export default function Contador(){
     const [numero, setNumero] = useState(0);
@@ -11,7 +12,7 @@ export default function Contador(){
         setNumero(numero - 1);
     };
     return(
-        <div>
+        <div className='contador'>
             <h1>Contador</h1>
             <p> Número actual: {numero} </p>
             <button onClick={aumentar}>Aumentar </button>
