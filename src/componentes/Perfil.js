@@ -1,5 +1,6 @@
 import React from 'react' //libreria
 import '../estilos/perfil.css'
+import Contador from './Contador'
 
 function Perfil(props){
   return(
@@ -17,6 +18,16 @@ function Perfil(props){
               {props.resena}
           </p>
           </div>
+          <div>
+ <button onClick = {() => window.open(props.twitter, '_blank')}>
+
+   </button>
+   <button onClick = {() => window.open(props.linkedin, '_blank')}>
+   </button>
+   <button onClick = {() => window.open(props.youtube, '_blank')}>
+    <Contador/>
+   </button>
+  </div>
       </div>
   )
 }
